@@ -35,20 +35,20 @@
     [UIView animateWithDuration:0.5 animations:^{
         
         if (self.center.x > superViewFrame.size.width / 2) {
-            if (self.frame.origin.y < self.edgeInsets.top) {
-                self.center = CGPointMake(superViewFrame.size.width - self.frame.size.width/2 - self.edgeInsets.right, self.edgeInsets.top + self.frame.size.height/2 +20);
-            }else if (self.frame.origin.y > superViewFrame.size.height - self.frame.size.height - self.edgeInsets.bottom){
-                self.center = CGPointMake(superViewFrame.size.width - self.frame.size.width/2 - self.edgeInsets.right, superViewFrame.size.height - self.frame.size.height/2 - self.edgeInsets.bottom);
+            if (self.frame.origin.y < self.attachingEdgeInsets.top) {
+                self.center = CGPointMake(superViewFrame.size.width - self.frame.size.width/2 - self.attachingEdgeInsets.right, self.attachingEdgeInsets.top + self.frame.size.height/2 +20);
+            }else if (self.frame.origin.y > superViewFrame.size.height - self.frame.size.height - self.attachingEdgeInsets.bottom){
+                self.center = CGPointMake(superViewFrame.size.width - self.frame.size.width/2 - self.attachingEdgeInsets.right, superViewFrame.size.height - self.frame.size.height/2 - self.attachingEdgeInsets.bottom);
             }else{
-                self.center = CGPointMake(superViewFrame.size.width - self.frame.size.width/2 - self.edgeInsets.right, self.center.y);
+                self.center = CGPointMake(superViewFrame.size.width - self.frame.size.width/2 - self.attachingEdgeInsets.right, self.center.y);
             }
         }else{
-            if (self.frame.origin.y < self.edgeInsets.top) {
-                self.center = CGPointMake(self.frame.size.width/2 + self.edgeInsets.left, self.edgeInsets.top + self.frame.size.height/2 +20);
-            }else if (self.frame.origin.y > superViewFrame.size.height - self.frame.size.height - self.edgeInsets.bottom){
-                self.center = CGPointMake(self.frame.size.width/2 + self.edgeInsets.left, superViewFrame.size.height - self.frame.size.height/2 - self.edgeInsets.bottom);
+            if (self.frame.origin.y < self.attachingEdgeInsets.top) {
+                self.center = CGPointMake(self.frame.size.width/2 + self.attachingEdgeInsets.left, self.attachingEdgeInsets.top + self.frame.size.height/2 +20);
+            }else if (self.frame.origin.y > superViewFrame.size.height - self.frame.size.height - self.attachingEdgeInsets.bottom){
+                self.center = CGPointMake(self.frame.size.width/2 + self.attachingEdgeInsets.left, superViewFrame.size.height - self.frame.size.height/2 - self.attachingEdgeInsets.bottom);
             }else{
-                self.center = CGPointMake(self.frame.size.width/2 + self.edgeInsets.left, self.center.y);
+                self.center = CGPointMake(self.frame.size.width/2 + self.attachingEdgeInsets.left, self.center.y);
             }
         }
     }];

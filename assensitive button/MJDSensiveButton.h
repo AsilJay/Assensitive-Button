@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface MJDSensiveButton : UIButton
-@property (nonatomic, assign) UIEdgeInsets  edgeInsets;
+@property (nonatomic, assign) UIEdgeInsets  attachingEdgeInsets;
 @end
