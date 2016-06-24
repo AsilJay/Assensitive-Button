@@ -23,7 +23,7 @@
     btn.edgeInsets = UIEdgeInsetsMake(50, 50, 50, 50);
     ```
     
-*  ##Tips
+*  ## Tips
   * The button won't attach to the top or the bottom of it's superview, just because the orginal coder thinks it would be a bad UI exp. 
   * If you need a button that could attach to four edges, make a copy of your own by extending or changing the original. Or, just email me to get a full version at 894318488@qq.com. Feel free. XD
 
