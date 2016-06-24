@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35314BC01D1D6FDB00188352 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35314BBF1D1D6FDB00188352 /* main.m */; };
+		35314BC31D1D6FDB00188352 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35314BC21D1D6FDB00188352 /* AppDelegate.m */; };
+		35314BC61D1D6FDB00188352 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35314BC51D1D6FDB00188352 /* ViewController.m */; };
+		35314BC91D1D6FDB00188352 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35314BC71D1D6FDB00188352 /* Main.storyboard */; };
+		35314BCB1D1D6FDB00188352 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35314BCA1D1D6FDB00188352 /* Assets.xcassets */; };
+		35314BCE1D1D6FDB00188352 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35314BCC1D1D6FDB00188352 /* LaunchScreen.storyboard */; };
+		35314BD71D1D701100188352 /* MJDSensiveButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 35314BD61D1D701100188352 /* MJDSensiveButton.m */; };
+		35314BD91D1D72FD00188352 /* AssistiveTouch.png in Resources */ = {isa = PBXBuildFile; fileRef = 35314BD81D1D72FD00188352 /* AssistiveTouch.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		35314BBB1D1D6FDA00188352 /* assensitive button.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "assensitive button.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35314BBF1D1D6FDB00188352 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		35314BC11D1D6FDB00188352 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		35314BC21D1D6FDB00188352 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		35314BC41D1D6FDB00188352 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		35314BC51D1D6FDB00188352 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		35314BC81D1D6FDB00188352 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		35314BCA1D1D6FDB00188352 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		35314BCD1D1D6FDB00188352 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		35314BCF1D1D6FDB00188352 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35314BD51D1D701100188352 /* MJDSensiveButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJDSensiveButton.h; sourceTree = "<group>"; };
+		35314BD61D1D701100188352 /* MJDSensiveButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJDSensiveButton.m; sourceTree = "<group>"; };
+		35314BD81D1D72FD00188352 /* AssistiveTouch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AssistiveTouch.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35314BB81D1D6FDA00188352 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35314BB21D1D6FDA00188352 = {
+			isa = PBXGroup;
+			children = (
+				35314BBD1D1D6FDB00188352 /* assensitive button */,
+				35314BBC1D1D6FDA00188352 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		35314BBC1D1D6FDA00188352 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35314BBB1D1D6FDA00188352 /* assensitive button.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35314BBD1D1D6FDB00188352 /* assensitive button */ = {
+			isa = PBXGroup;
+			children = (
+				35314BD51D1D701100188352 /* MJDSensiveButton.h */,
+				35314BD61D1D701100188352 /* MJDSensiveButton.m */,
+				35314BC11D1D6FDB00188352 /* AppDelegate.h */,
+				35314BC21D1D6FDB00188352 /* AppDelegate.m */,
+				35314BC41D1D6FDB00188352 /* ViewController.h */,
+				35314BC51D1D6FDB00188352 /* ViewController.m */,
+				35314BC71D1D6FDB00188352 /* Main.storyboard */,
+				35314BD81D1D72FD00188352 /* AssistiveTouch.png */,
+				35314BCA1D1D6FDB00188352 /* Assets.xcassets */,
+				35314BCC1D1D6FDB00188352 /* LaunchScreen.storyboard */,
+				35314BCF1D1D6FDB00188352 /* Info.plist */,
+				35314BBE1D1D6FDB00188352 /* Supporting Files */,
+			);
+			path = "assensitive button";
+			sourceTree = "<group>";
+		};
+		35314BBE1D1D6FDB00188352 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				35314BBF1D1D6FDB00188352 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		35314BBA1D1D6FDA00188352 /* assensitive button */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35314BD21D1D6FDB00188352 /* Build configuration list for PBXNativeTarget "assensitive button" */;
+			buildPhases = (
+				35314BB71D1D6FDA00188352 /* Sources */,
+				35314BB81D1D6FDA00188352 /* Frameworks */,
+				35314BB91D1D6FDA00188352 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "assensitive button";
+			productName = "assensitive button";
+			productReference = 35314BBB1D1D6FDA00188352 /* assensitive button.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		35314BB31D1D6FDA00188352 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = MyJawDrops;
+				TargetAttributes = {
+					35314BBA1D1D6FDA00188352 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 6AJ2ZXPU35;
+					};
+				};
+			};
+			buildConfigurationList = 35314BB61D1D6FDA00188352 /* Build configuration list for PBXProject "assensitive button" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 35314BB21D1D6FDA00188352;
+			productRefGroup = 35314BBC1D1D6FDA00188352 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35314BBA1D1D6FDA00188352 /* assensitive button */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		35314BB91D1D6FDA00188352 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35314BCE1D1D6FDB00188352 /* LaunchScreen.storyboard in Resources */,
+				35314BCB1D1D6FDB00188352 /* Assets.xcassets in Resources */,
+				35314BD91D1D72FD00188352 /* AssistiveTouch.png in Resources */,
+				35314BC91D1D6FDB00188352 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35314BB71D1D6FDA00188352 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35314BC61D1D6FDB00188352 /* ViewController.m in Sources */,
+				35314BD71D1D701100188352 /* MJDSensiveButton.m in Sources */,
+				35314BC31D1D6FDB00188352 /* AppDelegate.m in Sources */,
+				35314BC01D1D6FDB00188352 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		35314BC71D1D6FDB00188352 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35314BC81D1D6FDB00188352 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		35314BCC1D1D6FDB00188352 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35314BCD1D1D6FDB00188352 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		35314BD01D1D6FDB00188352 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		35314BD11D1D6FDB00188352 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		35314BD31D1D6FDB00188352 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "assensitive button/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.myjawdrops.www.assensitive-button";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		35314BD41D1D6FDB00188352 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "assensitive button/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.myjawdrops.www.assensitive-button";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35314BB61D1D6FDA00188352 /* Build configuration list for PBXProject "assensitive button" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35314BD01D1D6FDB00188352 /* Debug */,
+				35314BD11D1D6FDB00188352 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35314BD21D1D6FDB00188352 /* Build configuration list for PBXNativeTarget "assensitive button" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35314BD31D1D6FDB00188352 /* Debug */,
+				35314BD41D1D6FDB00188352 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 35314BB31D1D6FDA00188352 /* Project object */;
+}
